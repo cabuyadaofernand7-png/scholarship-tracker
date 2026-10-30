@@ -1,0 +1,6 @@
+.env
+*.key
+*.pem
+backend/vendor/
+frontend/build/
+frontend/.dart_tool/
