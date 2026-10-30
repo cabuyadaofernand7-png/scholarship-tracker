@@ -52,6 +52,13 @@ return [
 
     'channels' => [
 
+        'alerts' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/alerts.log'),
+            'level' => 'info',
+            'formatter' => \Monolog\Formatter\JsonFormatter::class,
+        ],
+
         'stack' => [
             'driver' => 'stack',
             'channels' => explode(',', (string) env('LOG_STACK', 'single')),
