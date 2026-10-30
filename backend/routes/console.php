@@ -8,3 +8,8 @@ Schedule::command('alerts:send-reminders')
     ->dailyAt('08:00')
     ->timezone('Asia/Manila')
     ->withoutOverlapping();
+
+Schedule::command('alerts:flag-stale')
+    ->dailyAt('08:15')
+    ->timezone('Asia/Manila')
+    ->withoutOverlapping();
