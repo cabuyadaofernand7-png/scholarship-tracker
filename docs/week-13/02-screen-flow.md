@@ -11,25 +11,9 @@ This document sketches the full intended screen flow of the system and states wh
 ![Week 13 screen flow diagram](../../evidence/week-13/screenshots/week-13-screen-flow-diagram.png)
 
 ## 3. Wireframes (implemented screens)
+![Wireframes for students](../../evidence/week-13/screenshots/Wireframe-students.png)
+![Wireframes for staff](../../evidence/week-13/screenshots/wireframe-staff.png)
 
-```
-Student tab                               Staff tab
-+------------------------------------+    +------------------------------------+
-| Scholarship Requirement Tracker    |    | Scholarship Requirement Tracker    |
-| [Week 13 demo banner]              |    | [Week 13 demo banner]              |
-|                                    |    |                                    |
-| My notifications                   |    | Failed alerts needing action  [↻]  |
-| [Applicant ID (demo)   ] [Load]    |    | ---------------------------------- |
-| ---------------------------------- |    | ⚠ Invalid email address on file    |
-| 🔔 Reminder: your deadline is in   |    |   Application #6 · email ·         |
-|    7 day(s). Please log in...      |    |   reminder_1 · attempts: 1         |
-|    2026-10-30T...                  |    |                [Mark resolved]     |
-| 🔔 Your application status has     |    |                                    |
-|    been updated. Please log in...  |    |                                    |
-|------------------------------------|    |------------------------------------|
-| [Student]            [Staff]       |    | [Student]            [Staff]       |
-+------------------------------------+    +------------------------------------+
-```
 
 ## 4. Required UI states
 
